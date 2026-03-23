@@ -1,0 +1,8 @@
+backend/venv/
+backend/trades.json
+backend/checklist.json
+__pycache__/
+*.pyc
+*.pyo
+.env
+.DS_Store

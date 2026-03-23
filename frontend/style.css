@@ -1,0 +1,22 @@
+.stat-ci { font-size: 11px; color: var(--muted); margin-top: 4px; }
+.streak-warning {
+  background: var(--red-dim); border: 1px solid var(--red); color: var(--red);
+  padding: 12px 16px; border-radius: 8px; margin-top: 12px; text-align: center; font-size: 13px;
+}
+.streak-warning small { font-size: 11px; opacity: 0.8; }
+
+.trade-filters {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 16px; margin-bottom: 20px;
+}
+.filter-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 16px; margin-bottom: 12px; }
+.clear-filters-btn {
+  background: transparent; border: 1px solid var(--border2); color: var(--muted);
+  padding: 10px 16px; border-radius: 7px; cursor: pointer; align-self: end;
+}
+.clear-filters-btn:hover { background: var(--surface2); }
+
+#export-json-btn, #export-csv-btn, #import-csv-btn {
+  background: var(--surface2); border: 1px solid var(--border2); color: var(--accent);
+  padding: 6px 12px; border-radius: 6px; margin-left: 8px; font-size: 12px;
+}
